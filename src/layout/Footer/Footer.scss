@@ -1,0 +1,25 @@
+@use './../../shared.scss' as s;
+
+.footer {
+  @include s.containerPadding;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: var(--primary-gray-dark);
+  display: flex;
+  justify-content: center;
+
+  @media screen and (max-width: 1000px) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  @media screen and (max-width: 750px) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  @media screen and (max-width: 400px) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}

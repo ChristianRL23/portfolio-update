@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+:root {
+  --general-white: #eee;
+  --primary-gray: #666;
+  --primary-gray-dark: #444;
+  --primary-white: #f3f3f3;
+  --primary-white-dark: #ebebeb;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif, 'Arial';
+  background-color: var(--primary-white);
+}
+
+.app {
+  position: relative;
+}

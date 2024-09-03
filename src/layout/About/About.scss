@@ -1,0 +1,78 @@
+@import "./../../shared.scss";
+
+.about {
+  @include containerPadding;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scroll-margin-top: 3.5rem;
+
+  &__title {
+    @include sectionTitle;
+    margin-bottom: 2.5rem;
+  }
+
+  &__information {
+    width: 100%;
+    background-color: var(--primary-white-dark);
+    padding: 2rem;
+  }
+}
+
+.information {
+  &__subtitle {
+    @include sectionSubtitle;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    @include sectionText;
+    text-align: center;
+
+    &:not(:last-child) {
+      margin-bottom: 1.5rem;
+    }
+
+    span {
+      font-weight: 500;
+    }
+  }
+}
+
+.technologies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 95%;
+  margin: 2rem auto 0 auto;
+  padding: 1.7rem;
+
+  &__subtitle {
+    @include sectionSubtitle;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  &__icons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3.5rem;
+    align-content: flex-start;
+
+    @media screen and (max-width: 800px) {
+      gap: 3rem;
+    }
+
+    @media screen and (max-width: 700px) {
+      gap: 2.5rem;
+    }
+
+    @media screen and (max-width: 370px) {
+      gap: 2rem;
+    }
+  }
+}

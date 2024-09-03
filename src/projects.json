@@ -1,0 +1,157 @@
+[
+  {
+    "name": "Audiophile",
+    "description": "Audiophile is a dummy e-commerce where you can 'buy' items like headphones or speakers. The site includes detailed information of each product, a shopping cart, a form to confirm a purchase order and much more. It also uses the browser's local storage to avoid the loss of products already added to the cart.",
+    "images": [
+      "/projects-images/audiophile/first.jpg",
+      "/projects-images/audiophile/second.jpg",
+      "/projects-images/audiophile/checkout.jpg"
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Redux",
+      "SASS/SCSS"
+    ],
+    "features": [
+      "Consume of a JSON for data usage.",
+      "Cart data persistence using local storage.",
+      "Navigation between pages.",
+      "Form validation."
+    ],
+    "repository": "https://github.com/ChristianRL23/audiophile",
+    "liveDemo": "https://audiophile-rl.netlify.app/"
+  },
+  {
+    "name": "Countries App",
+    "description": "Countries App is an application that consumes an API (REST Countries) to provide the user with information about more than 200 countries, such as name, population, languages, currencies, etc.",
+    "images": [
+      "/projects-images/countries-app/first.jpg",
+      "/projects-images/countries-app/country.jpg"
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      ["Custom Hooks", "Context API"],
+      "SASS/SCSS"
+    ],
+    "features": [
+      "Change app theme between light and dark mode.",
+      "Filter countries for region.",
+      "Show an individual component with extra information for every country.",
+      "Use the search bar to consult information about a specific country.",
+      "Navigate between neighbours countries."
+    ],
+    "repository": "https://github.com/ChristianRL23/countries-app",
+    "liveDemo": "https://christianrl23.github.io/countries-app"
+  },
+  {
+    "name": "my favorite place",
+    "description": "Would you like to have all your favorite places in one place? Use my favorite place, an application where you can add your favorite places by placing markers on a map of your city.",
+    "images": [
+      "/projects-images/my-favorite-place/welcome.jpg",
+      "/projects-images/my-favorite-place/add.jpg",
+      "/projects-images/my-favorite-place/third.jpg"
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      ["Geolocation API", "Leafltet"],
+      "React",
+      ["React Leaflet"],
+      "SASS/SCSS"
+    ],
+    "features": [
+      "Use of a Lefleat map.",
+      "Get the user's current location using the browser's Geolocation API.",
+      "See all the favorite places listed and show their location on the map if they are clicked.",
+      "Show a popup with the place name if a map marker is clicked."
+    ],
+    "repository": "https://github.com/ChristianRL23/my-favorite-place",
+    "liveDemo": " https://myfavoriteplace.netlify.app"
+  },
+  {
+    "name": "Doggo App",
+    "description": "Doggo App is a site to get information such as temperament, weight and measurements, life span and more about hundreds of dog breeds. The data is brought from an API (The Dog API).",
+    "images": [
+      "/projects-images/doggo-app/home.jpg",
+      "/projects-images/doggo-app/responsive.jpg"
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      ["Context API", "React Paginate"],
+      "SASS/SCSS"
+    ],
+    "features": [
+      "Consuming an API to get the data.",
+      "Use of a searchbar with autocomplete to search for a desired breed.",
+      "Pagination to display the data.",
+      "Rendering of a modal to display information about a breed."
+    ],
+    "repository": "https://github.com/ChristianRL23/doggo-app",
+    "liveDemo": "https://doggo-app.netlify.app"
+  },
+  {
+    "name": "Memory Game",
+    "description": "Have fun playing Memory Game alone or with up to 4 friends! You can choose between two themes, icons or numbers. Also, you choose the difficulty, choosing a 4x4 or 6x6 grid.",
+    "images": [
+      "/projects-images/memory-game/first.jpg",
+      "/projects-images/memory-game/second.jpg",
+      "/projects-images/memory-game/third.jpg"
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      ["Context API"],
+      "Redux",
+      "Font Awesome",
+      "SASS/SCSS"
+    ],
+    "features": [
+      "Choose to play solo or up to four players.",
+      "Choose between two themes, icons or numbers.",
+      "Choose between two grids, 4x4 or 6x6.",
+      "Being able to start a new game or restart during a match.",
+      "Show the results at the end of the match in a modal."
+    ],
+    "repository": "https://github.com/ChristianRL23/memory-game",
+    "liveDemo": "https://memory-game-rl.netlify.app"
+  },
+  {
+    "name": "Tip Calculator",
+    "description": "Tip Calculator is an app to know the amount of the tip percentage that you want to give bassed in the bill and if you are not alone, know how much each person should give of tip.",
+    "images": [
+      "/projects-images/tip-calculator/empty.jpg",
+      "/projects-images/tip-calculator/filled.jpg",
+      "/projects-images/tip-calculator/errors.jpg",
+      "/projects-images/tip-calculator/responsive.jpg"
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      ["Context API"],
+      "SASS/SCSS"
+    ],
+    "features": [
+      "Enter a custom tip percentage.",
+      "Divide the tip by the number of diners.",
+      "Inputs validation."
+    ],
+    "repository": "https://github.com/ChristianRL23/tip-calculator",
+    "liveDemo": "https://tip-calculator-rl.netlify.app"
+  }
+]

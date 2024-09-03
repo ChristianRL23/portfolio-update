@@ -1,0 +1,27 @@
+.technology {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 6.5rem;
+  align-self: center;
+
+  &__name {
+    color: var(--primary-gray-dark);
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+
+    @media screen and (max-width: 700px) {
+      font-size: 1.3rem;
+    }
+
+    @media screen and (max-width: 500px) {
+      font-size: 1.2rem;
+    }
+
+    @media screen and (max-width: 370px) {
+      font-size: 1.1rem;
+    }
+  }
+}
