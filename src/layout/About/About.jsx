@@ -14,8 +14,7 @@ const About = () => {
         <p className="information__text">
           I started to study self-taught technologies related to web development
           at the end of 2020. Recently, I started learning Java, Spring Boot,
-          MySQL, Docker, and other backend technologies because I want to become
-          a Full Stack developer.
+          MySQL, AWS and Docker.
         </p>
         <p className="information__text">
           Currently I'm looking for new professional opportunities, so I invite
