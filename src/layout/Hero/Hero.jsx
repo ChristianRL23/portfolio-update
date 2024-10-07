@@ -3,7 +3,7 @@ import "./Hero.scss";
 
 const Hero = () => {
   const openPDF = () => {
-    window.open("/ChristianUrielRamirezLaraCV.pdf");
+    window.open("/ChristianRamirezLaraCV.pdf");
   };
 
   return (
