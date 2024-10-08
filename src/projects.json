@@ -1,6 +1,7 @@
 [
   {
     "name": "Audiophile",
+    "type": "Frontend",
     "description": "Audiophile is a dummy e-commerce where you can 'buy' items like headphones or speakers. The site includes detailed information of each product, a shopping cart, a form to confirm a purchase order and much more. It also uses the browser's local storage to avoid the loss of products already added to the cart.",
     "images": [
       "/projects-images/audiophile/first.jpg",
@@ -27,6 +28,7 @@
   },
   {
     "name": "Countries App",
+    "type": "Frontend",
     "description": "Countries App is an application that consumes an API (REST Countries) to provide the user with information about more than 200 countries, such as name, population, languages, currencies, etc.",
     "images": [
       "/projects-images/countries-app/first.jpg",
@@ -52,6 +54,7 @@
   },
   {
     "name": "my favorite place",
+    "type": "Frontend",
     "description": "Would you like to have all your favorite places in one place? Use my favorite place, an application where you can add your favorite places by placing markers on a map of your city.",
     "images": [
       "/projects-images/my-favorite-place/welcome.jpg",
@@ -77,32 +80,8 @@
     "liveDemo": " https://myfavoriteplace.netlify.app"
   },
   {
-    "name": "Doggo App",
-    "description": "Doggo App is a site to get information such as temperament, weight and measurements, life span and more about hundreds of dog breeds. The data is brought from an API (The Dog API).",
-    "images": [
-      "/projects-images/doggo-app/home.jpg",
-      "/projects-images/doggo-app/responsive.jpg"
-    ],
-    "technologies": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "TypeScript",
-      "React",
-      ["Context API", "React Paginate"],
-      "SASS/SCSS"
-    ],
-    "features": [
-      "Consuming an API to get the data.",
-      "Use of a searchbar with autocomplete to search for a desired breed.",
-      "Pagination to display the data.",
-      "Rendering of a modal to display information about a breed."
-    ],
-    "repository": "https://github.com/ChristianRL23/doggo-app",
-    "liveDemo": "https://doggo-app.netlify.app"
-  },
-  {
     "name": "Memory Game",
+    "type": "Frontend",
     "description": "Have fun playing Memory Game alone or with up to 4 friends! You can choose between two themes, icons or numbers. Also, you choose the difficulty, choosing a 4x4 or 6x6 grid.",
     "images": [
       "/projects-images/memory-game/first.jpg",
@@ -131,6 +110,7 @@
   },
   {
     "name": "Tip Calculator",
+    "type": "Frontend",
     "description": "Tip Calculator is an app to know the amount of the tip percentage that you want to give bassed in the bill and if you are not alone, know how much each person should give of tip.",
     "images": [
       "/projects-images/tip-calculator/empty.jpg",

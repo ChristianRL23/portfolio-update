@@ -1,4 +1,4 @@
-@use './../../shared.scss' as s;
+@use "./../../shared.scss" as s;
 
 .projects {
   @include s.containerPadding;
@@ -14,5 +14,28 @@
     text-align: center;
     margin-bottom: 3.5rem;
     @include s.sectionText;
+  }
+
+  &__filter {
+    width: 100%;
+    margin-bottom: 3.5rem;
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      gap: 10rem;
+    }
+
+    li {
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+
+    .active {
+      font-size: 1.8rem;
+      cursor: pointer;
+      border-bottom: 2px solid black;
+    }
   }
 }

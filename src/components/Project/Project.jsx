@@ -1,4 +1,4 @@
-import 'pure-react-carousel/dist/react-carousel.es.css';
+import "pure-react-carousel/dist/react-carousel.es.css";
 
 import {
   CarouselProvider,
@@ -7,14 +7,15 @@ import {
   ButtonBack,
   ButtonNext,
   Image,
-} from 'pure-react-carousel';
-import './Project.scss';
-import githubIcon from './GitHub-Mark-Light-120px-plus.png';
-import demoIcon from './5411975041600774573-128.png';
-import CustomButton from '../CustomButton/CustomButton';
-import { useState } from 'react';
+} from "pure-react-carousel";
+import "./Project.scss";
+import githubIcon from "./GitHub-Mark-Light-120px-plus.png";
+import demoIcon from "./5411975041600774573-128.png";
+import CustomButton from "../CustomButton/CustomButton";
+import { useState } from "react";
 
 const Project = ({
+  id,
   images,
   name,
   description,
@@ -33,19 +34,23 @@ const Project = ({
   return (
     <div className={`project--${direction}`}>
       <CarouselProvider
+        key={"id" + Math.random().toString(16).slice(2)}
         naturalSlideWidth={100}
         naturalSlideHeight={50}
         totalSlides={images.length}
       >
         <Slider>
           {images.map((image, index) => (
-            <Slide index={index}>
+            <Slide
+              index={index}
+              key={"id" + Math.random().toString(16).slice(2)}
+            >
               <Image className="slider__image" src={image} />
             </Slide>
           ))}
         </Slider>
-        <ButtonBack className="carousel__button__back">{'<'}</ButtonBack>
-        <ButtonNext className="carousel__button__next">{'>'}</ButtonNext>
+        <ButtonBack className="carousel__button__back">{"<"}</ButtonBack>
+        <ButtonNext className="carousel__button__next">{">"}</ButtonNext>
       </CarouselProvider>
 
       <div className="project__info">
@@ -56,7 +61,7 @@ const Project = ({
             <h6
               onClick={selectTechnologiesTab}
               className={`project__info__more__selector__tab${
-                !featureTabActive ? '--active' : ''
+                !featureTabActive ? "--active" : ""
               }`}
             >
               Technologies
@@ -64,7 +69,7 @@ const Project = ({
             <h6
               onClick={selectFeaturesTab}
               className={`project__info__more__selector__tab${
-                featureTabActive ? '--active' : ''
+                featureTabActive ? "--active" : ""
               }`}
             >
               Features
@@ -73,9 +78,9 @@ const Project = ({
           {!featureTabActive ? (
             <ul>
               {technologies.map((technology) => {
-                if (typeof technology !== 'string') {
+                if (typeof technology !== "string") {
                   return (
-                    <ul>
+                    <ul key={"id" + Math.random().toString(16).slice(2)}>
                       {technology.map((technologyArr) => (
                         <li>{technologyArr}</li>
                       ))}
@@ -88,7 +93,9 @@ const Project = ({
           ) : (
             <ul>
               {features.map((feature) => (
-                <li>{feature}</li>
+                <li key={"id" + Math.random().toString(16).slice(2)}>
+                  {feature}
+                </li>
               ))}
             </ul>
           )}
