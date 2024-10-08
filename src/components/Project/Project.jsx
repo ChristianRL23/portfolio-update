@@ -15,7 +15,6 @@ import CustomButton from "../CustomButton/CustomButton";
 import { useState } from "react";
 
 const Project = ({
-  id,
   images,
   name,
   description,
@@ -49,8 +48,12 @@ const Project = ({
             </Slide>
           ))}
         </Slider>
-        <ButtonBack className="carousel__button__back">{"<"}</ButtonBack>
-        <ButtonNext className="carousel__button__next">{">"}</ButtonNext>
+        {images.length > 1 && (
+          <>
+            <ButtonBack className="carousel__button__back">{"<"}</ButtonBack>
+            <ButtonNext className="carousel__button__next">{">"}</ButtonNext>
+          </>
+        )}
       </CarouselProvider>
 
       <div className="project__info">
