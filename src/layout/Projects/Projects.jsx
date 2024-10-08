@@ -1,7 +1,7 @@
 import "./Projects.scss";
 import projectData from "./../../projects.json";
 import Project from "../../components/Project/Project";
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 
 const Projects = () => {
   const [currentFilter, setCurrentFilter] = useState("All");
