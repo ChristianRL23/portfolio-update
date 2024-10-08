@@ -107,12 +107,14 @@ const Project = ({
             theme="dark"
             link={repository}
           />
-          <CustomButton
-            textContent="See live demo"
-            icon={demoIcon}
-            theme="light"
-            link={liveDemo}
-          />
+          {liveDemo && (
+            <CustomButton
+              textContent="See live demo"
+              icon={demoIcon}
+              theme="light"
+              link={liveDemo}
+            />
+          )}
         </div>
       </div>
     </div>

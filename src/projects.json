@@ -27,6 +27,33 @@
     "liveDemo": "https://audiophile-rl.netlify.app/"
   },
   {
+    "name": "TimeTalk API",
+    "type": "Backend",
+    "description": "RESTFul API developed with Java and created to be used on TimeTalk, a social network (currently in development) to ask questions, share experiences and make comments about watches.",
+    "images": ["/projects-images/timetalk-api/TimeTalk.png"],
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "JWT",
+      "JPA/Hibernate",
+      "MySQL"
+    ],
+    "features": [
+      "Create a new account and obtain a JWT token.",
+      "Authenticate a user and obtain a JWT token.",
+      "Get all available posts.",
+      "Create a new post.",
+      "Update an existing post.",
+      "Delete an existing post.",
+      "Add a comment to an existing post.",
+      "Add a like to an existing post.",
+      "Remove a like from an existing post.",
+      "et first name and last name from the authenticated user."
+    ],
+    "repository": "https://github.com/ChristianRL23/timetalk-api"
+  },
+  {
     "name": "Countries App",
     "type": "Frontend",
     "description": "Countries App is an application that consumes an API (REST Countries) to provide the user with information about more than 200 countries, such as name, population, languages, currencies, etc.",
