@@ -29,7 +29,7 @@
   {
     "name": "TimeTalk API",
     "type": "Backend",
-    "description": "RESTFul API developed with Java and created to be used on TimeTalk, a social network (currently in development) to ask questions, share experiences and make comments about watches.",
+    "description": "RESTFul API developed with Java and Spring Boot created to be used in a social network of watches to ask questions, share experiences and make comments.",
     "images": ["/projects-images/timetalk-api/TimeTalk.png"],
     "technologies": [
       "Java",
