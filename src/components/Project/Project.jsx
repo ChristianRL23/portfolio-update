@@ -48,12 +48,11 @@ const Project = ({
             </Slide>
           ))}
         </Slider>
-        {images.length > 1 && (
-          <>
-            <ButtonBack className="carousel__button__back">{"<"}</ButtonBack>
-            <ButtonNext className="carousel__button__next">{">"}</ButtonNext>
-          </>
-        )}
+
+        <>
+          <ButtonBack className="carousel__button__back">{"<"}</ButtonBack>
+          <ButtonNext className="carousel__button__next">{">"}</ButtonNext>
+        </>
       </CarouselProvider>
 
       <div className="project__info">
