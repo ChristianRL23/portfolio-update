@@ -13,8 +13,7 @@ const About = () => {
         </p>
         <p className="information__text">
           I started to study self-taught technologies related to web development
-          at the end of 2020. Recently, I started learning Java, Spring Boot,
-          MySQL, AWS and Docker.
+          at the end of 2020.
         </p>
         <p className="information__text">
           Currently I'm looking for new professional opportunities, so I invite
@@ -27,7 +26,7 @@ const About = () => {
           <div className="technologies__icons">
             <TechnologyIcon technologyName="HTML" />
             <TechnologyIcon technologyName="CSS" />
-            <TechnologyIcon technologyName="JavaScript" />
+            <TechnologyIcon technologyName="JavaScript and TypeScript" />
             <TechnologyIcon technologyName="React" />
             <TechnologyIcon technologyName="Java" />
             <TechnologyIcon technologyName="Spring Boot" />

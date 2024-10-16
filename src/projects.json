@@ -29,7 +29,7 @@
   {
     "name": "TimeTalk API",
     "type": "Backend",
-    "description": "RESTFul API developed with Java and created to be used on TimeTalk, a social network (currently in development) to ask questions, share experiences and make comments about watches. The API has been containerized using Docker. A Dockerfile and a docker-compose.yml file are included in the repository. The image is available on DockerHub under the name: christian471/timetalk-api.",
+    "description": "RESTful API developed with Java to ask questions, share experiences and make comments about watches. The API has been containerized using Docker. A Dockerfile and a docker-compose.yml file are included in the repository. The image is available on DockerHub under the name: christian471/timetalk-api.",
     "images": [
       "/projects-images/timetalk-api/TimeTalk.png",
       "/projects-images/timetalk-api/docker.png"
